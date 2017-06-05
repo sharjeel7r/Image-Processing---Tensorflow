@@ -17,5 +17,7 @@ python train_my_model.py \
 python classify_image.py ~/Python/Python35/Lib/site-packages/ ~/Python/Python35/Lib/site-packages/working_directory/test_image/ ~/Python/Python35/Lib/site-packages/working_directory/cat_images/
 
 ~/Python/Python35/Lib/site-packages/ -- a directory where working_directory folder is created
+
 ~/Python/Python35/Lib/site-packages/working_directory/test_image/  -- folder which contains images for classification
+
 ~/Python/Python35/Lib/site-packages/working_directory/cat_images/ -- folder where cat images will be moved after classification. Kindly note that if an image with same name already exists in cat_images folder, that image will be over written.
